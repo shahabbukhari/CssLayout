@@ -1,0 +1,15 @@
+body{
+    color: white;
+    background-color: black;
+
+}
+.content {
+    width: 50%;
+    min-width: 400px;
+    margin: 0px auto;
+}
+.blocks {
+    border: 10px dotted white;
+    margin-bottom: 3em;
+    padding: 15px 40px;
+}

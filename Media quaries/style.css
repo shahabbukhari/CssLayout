@@ -1,0 +1,67 @@
+body{
+    padding: 0px;
+    margin: 0px 0px;
+}
+header{
+    width: 100%;
+    background-color: blue;
+    padding: 10px;
+    /* margin: 0px auto; */
+}
+.nav {
+    width: 400px;
+    margin: 0 auto;
+}
+a {
+    margin-right: 4em;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.content {
+    width: 900px;
+    margin: 20px auto;
+}
+.text {
+    text-align: center;
+}
+.text h1{
+    margin: 3px auto;
+    text-transform: uppercase;
+}
+.boxes{
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    margin: 0px auto;
+}
+.box1,.box2,.box3 {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: green;
+}
+
+p {
+    /* display: relative; */
+    height: 20%;
+    text-align: center;
+    margin: 40% auto;
+    font-size: 2em;
+    color: white;
+}
+@media all and (max-width:790px) {
+    .box1,.box2,.box3 {
+        display: block;
+        margin: 0 auto;
+    }
+}
