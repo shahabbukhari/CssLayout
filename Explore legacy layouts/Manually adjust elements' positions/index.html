@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        .container {
+            height: 200vh;
+            background-color: teal;
+        }
+        #nav {
+            background-color: black;
+            color: white;
+            height: 40px;
+            width: 100%;
+            font-size: 25px;
+            position: fixed;
+            /* it fixed the element on the page */
+        }
+        #main {
+            background-color: thistle;
+            width: 100%;
+            font-size: 60px;
+            height: 400px;
+            position: absolute;
+            /* relative to their nearest explicitly positioned ancestor. 
+            If you haven't explicitly set any positioning values on previous elements, 
+            the absolutely positioned element will appear relative to the edges of the document.             
+            */
+            top: 40px; 
+            right: 10px;
+            left: 10px;
+        }
+        #footer {
+            background-color: tomato;
+            width: 100%;
+            height: 50px;
+            font-size: 30px;
+            position: relative;
+            /* Setting a position to  relative  means you 
+            can position it relative to where it would normally be.           
+             */
+            top: 440px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="nav">nav</div>
+        <div id="main">Main</div>
+        <div id="footer">Footer</div>
+    </div>
+</body>
+</html>
