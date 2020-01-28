@@ -1,0 +1,31 @@
+* {
+    font-size: 1.4em;
+    text-align: center;
+    color: white;    
+    font-family: Helvetica;
+}
+.container {
+    border: 2px solid black;
+    display: flex;
+    /* Set the direct of flow of the itmes */  
+    /* flex-direction: row; */
+    
+    /* its allows felx-items to use there seted width readrless its fited in row are not */
+    /* flex-wrap: nowrap; */
+    
+    /* Shot hand for set diirection and wrap both */
+    flex-flow: row wrap;
+}
+.items{
+    width: 300px;
+    height: 80px;
+}
+.container  div:nth-child(1), div:nth-child(4) {
+    background-color: #9b59b6;
+}
+.container  div:nth-child(2), div:nth-child(5) {
+    background-color: #f1c40f;
+}
+.container  div:nth-child(3), div:nth-child(6) {
+    background-color: #e74c3c;
+}

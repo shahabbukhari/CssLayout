@@ -1,0 +1,38 @@
+* {
+    font-size: 1.4em;
+    text-align: center;
+    color: white;    
+    font-family: Helvetica;
+}
+.container {
+    border: 2px solid black;
+    height: 400px;
+    display: flex;
+    /* Shot hand for set diirection and wrap both */
+    flex-flow: row wrap;
+    /* align-items is only used for singal lines. */
+    /* align-content works for multiple lines and arange as whole */
+    align-content: space-around;
+}
+.items{
+    width: 110px;
+    height: 80px;
+}
+.container  div:nth-child(1), div:nth-child(4) {
+    background-color: #9b59b6;
+}
+.container  div:nth-child(2), div:nth-child(5) {
+    background-color: #f1c40f;
+}
+.container  div:nth-child(3), div:nth-child(6) {
+    background-color: #e74c3c;
+}
+.container  div:nth-child(7), div:nth-child(10) {
+    background-color: #9b59b6;
+}
+.container  div:nth-child(8), div:nth-child(11) {
+    background-color: #f1c40f;
+}
+.container  div:nth-child(9), div:nth-child(12) {
+    background-color: #e74c3c;
+}

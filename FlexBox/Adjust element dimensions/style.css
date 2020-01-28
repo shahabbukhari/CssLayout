@@ -1,0 +1,39 @@
+* {
+    font-size: 1.4em;
+    text-align: center;
+    color: white;    
+    font-family: Helvetica;
+}
+.container {
+    border: 2px solid black;
+    /* height: 500px; */
+    display: flex;
+    direction: row;
+
+}
+.items{
+    flex-basis: 400px;
+    /* it definds the width of the elements */
+    flex-grow: 1;
+    /* 
+    It will tell what you do with extra space 
+    flex-grow: 1; grow each item with 1fraction 
+    */
+    flex-shrink: 1;
+    /* if the width is less then a defined width then how to shrink an individual item or whole */
+    flex: 1 1 400px;
+    /* Shorthand way */
+}
+#one {
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+.container  div:nth-child(1), div:nth-child(4) {
+    background-color: #9b59b6;
+}
+.container  div:nth-child(2), div:nth-child(5) {
+    background-color: #f1c40f;
+}
+.container  div:nth-child(3), div:nth-child(6) {
+    background-color: #e74c3c;
+}
